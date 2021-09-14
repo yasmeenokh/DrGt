@@ -1,0 +1,43 @@
+html body {
+  box-sizing: border-box;
+}
+
+.hoverEff :hover {
+  background-color: rgba(238, 231, 231, 0.267);
+}
+
+.cardsDiv {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 35vh;
+  gap: 5%;
+  align-items: center;
+  justify-content: center;
+}
+.outerDiv {
+  margin: 2% auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 50vh;
+  border: solid 0.5px rgb(226, 219, 219);
+  border-radius: 5%;
+  padding-top: 2%;
+}
+
+.chartDiv {
+  margin: 2% 44%;
+  align-items: center;
+}
+
+.chartCont {
+  border: solid 0.5px rgb(226, 219, 219);
+  border-radius: 5%;
+  padding: 1%;
+  margin: 2% 23%;
+}
