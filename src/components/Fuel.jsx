@@ -41,7 +41,7 @@ console.log('from the fuel', props.data);
 
   const options1 = {
     animationEnabled: true,
-    width: 850,
+    width: '700',
     theme : 'light2',
     colorSet: "colorSet3",
     title: {
